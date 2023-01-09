@@ -1,16 +1,14 @@
 .holder{
 	display: grid;
-	grid-template-columns: repeat(2,200px);
-	grid-template-row: repeat(2,200px);
+	grid-template-columns: repeat(2, 200px);
+	grid-template-row: repeat(2, 200px);
 	row-gap: 10px;
 	columns-gap: 10px;
 	justify-content: center;
 	align-items: center;
 	background-color: red;	
-	height: 150px;
 }
 .item{
-	background-color: aqua;
-	height: 50px;	
+	background-color: aqua;	
 }
 /* Your CSS Code here. */
